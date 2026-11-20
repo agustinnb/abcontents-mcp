@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.agustinnb/abcontents",
+  "title": "ABContents",
+  "description": "Turn PDFs, Office files, a website or a brief into narrated videos with captions. Pay per video.",
+  "repository": {
+    "url": "https://github.com/agustinnb/abcontents-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://abcontents.com/video-api-for-ai-agents",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://abcontents.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your ABContents API key>. Only needed for create_video and get_balance; the other tools are free.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
