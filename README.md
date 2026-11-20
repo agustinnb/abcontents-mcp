@@ -3,7 +3,7 @@
 Let an AI agent make narrated videos. Send a brief, documents (PDF, Word, Excel, PowerPoint, CSV, text, photos)
 or a public website, and get back an MP4 with an AI-written script, AI voice, word-by-word captions and music.
 Vertical 9:16 for Reels, TikTok and Shorts by default, also 4:5, 1:1 and 16:9. 30 seconds to 5 minutes.
-English and Spanish. 20 motion-graphics styles (2D and 3D), no avatars.
+English and Spanish. 30 styles (2D and 3D), including 10 animated explainer looks with characters and drawings; no avatars.
 
 No account and no subscription: an API key is a prepaid wallet. Pay per video, from USD 3.
 
@@ -18,7 +18,7 @@ No account and no subscription: an API key is a prepaid wallet. Pay per video, f
 
 | Tool | What it does | Cost |
 |---|---|---|
-| `list_styles` | The 20 video styles (id, name, 2D/3D) | Free |
+| `list_styles` | The 30 video styles (id, name, 2D/3D) | Free |
 | `list_voices` | Narrators for a language, with a sample mp3 each | Free |
 | `list_music` | Background music choices with previews | Free |
 | `get_quote` | Price in tokens and estimated wait, queue included | Free |
